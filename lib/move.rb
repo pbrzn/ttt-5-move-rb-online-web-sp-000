@@ -11,7 +11,6 @@ def input_to_index(input)
 end
 
 def move(board, index, value = "X")
-  board=[" "," "," "," "," "," "," "," "," "]
   board[index]=value
   def update_board(board, index, value)
     
